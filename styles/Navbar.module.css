@@ -1,0 +1,22 @@
+.menu {
+    border-radius: 10px;
+    font-size: 24px;
+    display: block;
+    top: 0;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    overflow: hidden;
+    text-align: center;
+    text-decoration: none;
+    background-color: lightgray;
+    z-index: 2;
+  }
+
+  .menu Link {
+    color: #000;
+  }
+
+  .menu :hover {
+    color: gray;
+    text-decoration: none;
+  }

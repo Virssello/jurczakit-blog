@@ -1,0 +1,15 @@
+.main {
+    text-align: center;
+}
+
+.main .photos {
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: 1fr 1fr;
+}
+
+.main .photos :hover{
+    z-index: 1;
+    transform: scale(1.2);
+    transition: transform .3s ;
+}
